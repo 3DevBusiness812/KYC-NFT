@@ -1,0 +1,16 @@
+name: backend
+channels:
+  - anaconda
+  - numba
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - quart
+  - pyyaml
+  - ipython
+  - pip:
+    - complycube
+    - py-eth-sig-utils
+    - ipfshttpclient
+    - git+https://github.com/rmeissner/py-eth-sig-utils@master
